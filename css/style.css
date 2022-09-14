@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&display=swap');
+*{
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none !important;
+  transition: all .2s linear;
+}
+
+$orange: #ff5421;
+$white: #fff;
+$black: #000;
+$light-color: #ccc;
+$bg-color: #1d0e15;
+$border: .1rem solid rgba(255,255,255,.) 
+
+@mixin grid($val){
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+  gap: 2rem;
+}
